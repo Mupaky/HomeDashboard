@@ -8,12 +8,16 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-# Get the path to the Firebase admin SDK key file from the environment variable
+# Access Firebase configuration from environment variables
 firebase_key_path = os.getenv("FIREBASE_ADMINSDK_KEY_PATH")
+firebase_project_id = os.getenv("FIREBASE_PROJECT_ID")
+firebase_api_key = os.getenv("FIREBASE_API_KEY")
 
 # Initialize Firebase Admin SDK
 cred = credentials.Certificate(firebase_key_path)
-firebase_admin.initialize_app(cred)
+firebase_admin.initialize_app(cred, {
+    'projectId': firebase_project_id,
+})
 
 # Initialize Firestore client
 db = firestore.client()

@@ -1,0 +1,9 @@
+# Ignore environment file
+.env
+
+# Ignore Firebase service account key file
+firebase-adminsdk.json
+
+# Ignore virtual environment
+.venv/
+wordy-b2554-firebase-adminsdk-qwwgo-be24b0f697.json
