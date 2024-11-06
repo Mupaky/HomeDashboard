@@ -1,3 +1,4 @@
+import json
 from dataclasses import dataclass
 from models import Item
 
@@ -43,3 +44,18 @@ class Inventory:
 
     def is_item(self, id_to_check):
         return next((is_item for is_item in self.inventory_list if is_item.item_id == id_to_check), None)
+
+    def __get_json(self):
+        my_dict = dict()
+        for item in self.inventory_list:
+            my_dict.update({item.item_name: item})
+
+        return json.dumps(my_dict)
+
+    def __update_json_file(self, json_data):
+        path = ""
+        try:
+            file = open(path, "w")
+            file.write(json_data)
+        except:
+            pass

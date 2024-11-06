@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce06962f-1fda-4984-b4b6-03f60f2f033b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/SidebarSubMenu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/frames/InventoryFrame.py" afterDir="false" />
+    <list default="true" id="ce06962f-1fda-4984-b4b6-03f60f2f033b" name="Changes" comment="General changes are done.&#10;Colors are added.&#10;Screens are changed to frames.&#10;Submenu is added">
+      <change afterPath="$PROJECT_DIR$/firebase/firabase_setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/AppController.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/AppController.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/Inventory.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/Inventory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/AddItemScreen.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/frames/AddItemFrame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/InventoryScreen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ReportsScreen.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/frames/ReportsFrame.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +24,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Mupaky"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Mupaky&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mupaky/HomeDashboard.git",
-    "accountId": "4e400b18-1791-4c17-8243-956ef1a6878f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mupaky/HomeDashboard.git&quot;,
+    &quot;accountId&quot;: &quot;4e400b18-1791-4c17-8243-956ef1a6878f&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv/.env" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/.gitignore" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -51,26 +49,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.AddItemScreen.executor": "Run",
-    "Python.AppController.executor": "Run",
-    "Python.Inventory.executor": "Run",
-    "Python.InventoryScreen.executor": "Run",
-    "Python.Part.executor": "Run",
-    "Python.ReportsScreen.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.start_screen.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "F:/Python projects/HomeDashboard",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.AddItemScreen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppController.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Inventory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.InventoryScreen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Part.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReportsScreen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.start_screen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Python projects/HomeDashboard&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Python projects\HomeDashboard\firebase" />
+      <recent name="F:\Python projects\HomeDashboard" />
       <recent name="F:\Python projects\HomeDashboard\views\frames" />
       <recent name="F:\Python projects\EUVInventoryManagement" />
     </key>
@@ -120,6 +120,30 @@
       <option name="presentableId" value="Default" />
       <updated>1727861156743</updated>
     </task>
+    <task id="LOCAL-00001" summary="General changes are done.&#10;Colors are added.&#10;Screens are changed to frames.&#10;Submenu is added">
+      <option name="closed" value="true" />
+      <created>1730895642012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730895642012</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="General changes are done.&#10;Colors are added.&#10;Screens are changed to frames.&#10;Submenu is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="General changes are done.&#10;Colors are added.&#10;Screens are changed to frames.&#10;Submenu is added" />
   </component>
 </project>
